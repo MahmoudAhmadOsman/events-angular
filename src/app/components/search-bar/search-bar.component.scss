@@ -1,4 +1,5 @@
 $main_color: #C92570;
+$textColor: #222;
 
 .search-bar-container {
     position: relative;
@@ -6,7 +7,7 @@ $main_color: #C92570;
     .container {
         h3 {
 
-            color: $main_color;
+            color: $textColor;
             font-weight: bold;
             font-size: 42px;
         }

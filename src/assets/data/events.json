@@ -7,6 +7,7 @@
   "city": "Buffalo",
   "state": "NY",
   "description": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
+  "soldOut":"",
   "createdAt": "6.12.2020"
 }, {
   "id": 2,
@@ -15,6 +16,7 @@
   "city": "White Plains",
   "state": "NY",
   "description": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
+  "soldOut":"",
   "createdAt": "4.9.2020"
 }, {
   "id": 3,
@@ -23,6 +25,7 @@
   "city": "New York City",
   "state": "NY",
   "description": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
+  "soldOut":"Sold Out",
   "createdAt": "6.12.2021"
 }, {
   "id": 4,
@@ -31,6 +34,7 @@
   "city": "New York City",
   "state": "NY",
   "description": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
+  "soldOut":"",
   "createdAt": "9.12.2020"
 }, {
   "id": 5,
@@ -39,6 +43,7 @@
   "city": "New York City",
   "state": "NY",
   "description": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
+  "soldOut":"",
   "createdAt": "12.22.2020"
 }, {
   "id": 6,
@@ -47,6 +52,7 @@
   "city": "New York City",
   "state": "NY",
   "description": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
+  "soldOut":"",
   "createdAt": "8.25.2020"
 }
  

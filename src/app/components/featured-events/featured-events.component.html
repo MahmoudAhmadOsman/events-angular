@@ -1,26 +1,42 @@
 <section class="featured-events">
+  <!-- Start of loading spinner -->
   <div class="container">
-    <div class="row">
-      <div class="col-md-3" *ngFor="let event of listOfEvents">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="{{ event.image }}"
-            class="img-fluid"
-            alt="{{ event.title }}"
-          />
-          <div class="card-body">
-            <h5 class="card-title">{{ event.title }}</h5>
-            <p class="card-text">
-              <b>{{ event.createdAt | date }}</b> <br />
-              <span>{{ event.city }}, {{ event.state }}</span>
-            </p>
-            <p class="card-text">
-              {{ event.description }}
-            </p>
+    <div class="row" *ngIf="loading; else loaded">
+      <div class="mx-auto" style="margin-bottom: 30px">
+        <app-loading></app-loading>
+      </div>
+    </div>
+  </div>
+  <!-- End of loading spinner -->
+
+  <ng-template #loaded>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" *ngFor="let event of listOfEvents">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="{{ event.image }}"
+              class="img-fluid"
+              alt="{{ event.title }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ event.title }}</h5>
+              <p class="card-text">
+                <b>{{ event.createdAt | date }}</b> &nbsp; &nbsp; &nbsp;
+                <span class="text-danger font-weight-bold">{{
+                  event.soldOut
+                }}</span>
+                <br />
+                <span>{{ event.city }}, {{ event.state }}</span>
+              </p>
+              <p class="card-text">
+                {{ event.description }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </ng-template>
 </section>

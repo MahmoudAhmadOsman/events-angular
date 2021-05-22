@@ -8,18 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturedEventsComponent implements OnInit {
 
-  //  public listOfEvents = [];
-   public listOfEvents = [];
+ 
+  public listOfEvents = [];
+  
+  //show loading spinner
+  public loading = true;
   constructor(private events: EventsService) {
     
     events.getEventList().subscribe(data => {
 
       this.listOfEvents = data.events
-      
       console.log(data);
+      this.loading = false;
 
     }, (err) => {
-      console.log(err)
+      console.log(err);
+      this.loading = true;
     })
   }
 
