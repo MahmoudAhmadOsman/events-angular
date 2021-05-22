@@ -1,1 +1,26 @@
-<p>featured-events works!</p>
+<section class="featured-events">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let event of listOfEvents">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="{{ event.image }}"
+            class="img-fluid"
+            alt="{{ event.title }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ event.title }}</h5>
+            <p class="card-text">
+              <b>{{ event.createdAt | date }}</b> <br />
+              <span>{{ event.city }}, {{ event.state }}</span>
+            </p>
+            <p class="card-text">
+              {{ event.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+$main_color: #C92570;
+
+.search-bar-container {
+    position: relative;
+
+    .container {
+        h3 {
+
+            color: $main_color;
+            font-weight: bold;
+            font-size: 42px;
+        }
+
+        p {
+            color: $main_color;
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+    }
+
+    button#search-event {
+        // width: 170px;
+        // height: 56px;
+        margin-top: 31px !important;
+        background-color: $main_color;
+        font-weight: bold;
+    }
+
+    button#search-event2 {
+        // width: 170px;
+        // height: 56px;
+        margin-top: 31px !important;
+        margin-left: -85px;
+        border-radius: 28px;
+        background-color: $main_color;
+        font-weight: bold;
+    }
+}

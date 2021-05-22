@@ -1,0 +1,26 @@
+$main_color: #C93679;
+$parColor: #222222;
+
+.featured-events {
+    position: relative;
+    margin-top: 50px;
+
+    .card {
+        img {
+            width: 414px;
+            // height: 259px;
+            height:auto;
+            border-radius: 3px;
+        }
+
+        h5.card-title {
+            color: $main_color;
+        }
+
+        p {
+            color: $parColor;
+        }
+    }
+
+
+}

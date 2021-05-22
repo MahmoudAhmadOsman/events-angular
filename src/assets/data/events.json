@@ -1,0 +1,54 @@
+{
+	"events":[
+		{
+  "id": 1,
+  "title": "UX Design Workshop",
+  "image": "https://source.unsplash.com/1600x900/?female",
+  "city": "Buffalo",
+  "state": "NY",
+  "description": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
+  "createdAt": "6.12.2020"
+}, {
+  "id": 2,
+  "title": "Women Fashion - Spring",
+  "image": "https://source.unsplash.com/1600x900/?pant",
+  "city": "White Plains",
+  "state": "NY",
+  "description": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
+  "createdAt": "4.9.2020"
+}, {
+  "id": 3,
+  "title": "Business Women",
+  "image": "https://source.unsplash.com/1600x900/?computer",
+  "city": "New York City",
+  "state": "NY",
+  "description": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
+  "createdAt": "6.12.2021"
+}, {
+  "id": 4,
+  "title": "UX Design Workshop",
+  "image": "https://source.unsplash.com/1600x900/?bag",
+  "city": "New York City",
+  "state": "NY",
+  "description": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
+  "createdAt": "9.12.2020"
+}, {
+  "id": 5,
+  "title": "Women Fashion - Spring",
+  "image": "https://source.unsplash.com/1600x900/?bag",
+  "city": "New York City",
+  "state": "NY",
+  "description": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
+  "createdAt": "12.22.2020"
+}, {
+  "id": 6,
+  "title": "Business Women",
+  "image": "https://source.unsplash.com/1600x900/?bag",
+  "city": "New York City",
+  "state": "NY",
+  "description": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
+  "createdAt": "8.25.2020"
+}
+ 
+	]
+}
