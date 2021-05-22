@@ -23,7 +23,8 @@
             <div class="card-body">
               <h5 class="card-title">{{ event.title }}</h5>
               <p class="card-text">
-                <b>{{ event.createdAt | date }}</b> &nbsp; &nbsp; &nbsp;
+                <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b>
+                &nbsp; &nbsp; &nbsp;
                 <span class="text-danger font-weight-bold">{{
                   event.soldOut
                 }}</span>
