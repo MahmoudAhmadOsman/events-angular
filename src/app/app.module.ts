@@ -11,6 +11,7 @@ import { PostEventComponent } from './components/post-event/post-event.component
 import { FeaturedEventsComponent } from './components/featured-events/featured-events.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { FeaturedEventsDetailsComponent } from './components/featured-events-details/featured-events-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoadingComponent } from './components/loading/loading.component';
     PostEventComponent,
     FeaturedEventsComponent,
     NavbarComponent,
-    LoadingComponent
+    LoadingComponent,
+    FeaturedEventsDetailsComponent
   ],
   imports: [
     BrowserModule,

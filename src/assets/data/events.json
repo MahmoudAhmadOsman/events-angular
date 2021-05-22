@@ -1,60 +1,76 @@
 {
-	"events":[
-		{
-  "id": 1,
-  "title": "UX Design Workshop",
-  "image": "https://source.unsplash.com/1600x900/?female",
-  "city": "Buffalo",
-  "state": "NY",
-  "description": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
-  "soldOut":"",
-  "createdAt": "6.12.2020"
-}, {
-  "id": 2,
-  "title": "Women Fashion - Spring",
-  "image": "https://source.unsplash.com/1600x900/?pant",
-  "city": "White Plains",
-  "state": "NY",
-  "description": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
-  "soldOut":"",
-  "createdAt": "4.9.2020"
-}, {
-  "id": 3,
-  "title": "Business Women",
-  "image": "https://source.unsplash.com/1600x900/?computer",
-  "city": "New York City",
-  "state": "NY",
-  "description": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
-  "soldOut":"Sold Out",
-  "createdAt": "6.12.2021"
-}, {
-  "id": 4,
-  "title": "UX Design Workshop",
-  "image": "https://source.unsplash.com/1600x900/?bag",
-  "city": "New York City",
-  "state": "NY",
-  "description": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
-  "soldOut":"",
-  "createdAt": "9.12.2020"
-}, {
-  "id": 5,
-  "title": "Women Fashion - Spring",
-  "image": "https://source.unsplash.com/1600x900/?bag",
-  "city": "New York City",
-  "state": "NY",
-  "description": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
-  "soldOut":"",
-  "createdAt": "12.22.2020"
-}, {
-  "id": 6,
-  "title": "Business Women",
-  "image": "https://source.unsplash.com/1600x900/?bag",
-  "city": "New York City",
-  "state": "NY",
-  "description": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
-  "soldOut":"",
-  "createdAt": "8.25.2020"
-}
- 
-	]
+  "events": [
+    {
+      "id": 1,
+      "title": "Registered Nurse",
+      "image": "http://dummyimage.com/157x100.png/dddddd/000000",
+      "price": "18.65",
+      "seats": 30,
+      "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+      "city": "Bronx",
+      "state": "NY",
+      "location": "5 Evergreen Avenue",
+      "createdAt": "1.25.2021"
+    },
+    {
+      "id": 2,
+      "title": "Health Coach II",
+      "image": "http://dummyimage.com/147x100.png/5fa2dd/ffffff",
+      "price": "17.55",
+      "seats": 36,
+      "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "city": "New York City",
+      "state": "NY",
+      "location": "9 Fremont Plaza",
+      "createdAt": "1.10.2020"
+    },
+    {
+      "id": 3,
+      "title": "Account Coordinator",
+      "image": "http://dummyimage.com/124x100.png/ff4444/ffffff",
+      "price": "22.00",
+      "seats": 26,
+      "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+      "city": "Brooklyn",
+      "state": "NY",
+      "location": "76017 Spaight Street",
+      "createdAt": "1.4.2021"
+    },
+    {
+      "id": 4,
+      "title": "Project Manager",
+      "image": "http://dummyimage.com/170x100.png/ff4444/ffffff",
+      "price": "18.58",
+      "seats": 37,
+      "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+      "city": "Albany",
+      "state": "NY",
+      "location": "77964 7th Road",
+      "createdAt": "10.10.2020"
+    },
+    {
+      "id": 5,
+      "title": "Marketing Manager",
+      "image": "http://dummyimage.com/120x100.png/ff4444/ffffff",
+      "price": "17.12",
+      "seats": 19,
+      "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "city": "Syracuse",
+      "state": "NY",
+      "location": "4 Golf Course Court",
+      "createdAt": "11.6.2020"
+    },
+    {
+      "id": 6,
+      "title": "Operator",
+      "image": "http://dummyimage.com/120x100.png/dddddd/000000",
+      "price": "23.99",
+      "seats": 35,
+      "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "city": "New York City",
+      "state": "NY",
+      "location": "35970 Dahle Circle",
+      "createdAt": "8.15.2021"
+    }
+  ]
 }

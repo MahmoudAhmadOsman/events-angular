@@ -1,4 +1,5 @@
 <section class="featured-events">
+  
   <!-- Start of loading spinner -->
   <div class="container">
     <div class="row" *ngIf="loading; else loaded">
@@ -11,18 +12,21 @@
 
   <ng-template #loaded>
     <div class="container">
+      <app-search-bar></app-search-bar>
       <div class="row">
         <div class="col-md-4" *ngFor="let event of listOfEvents">
           <div class="card">
-            <img
-              class="card-img-top"
-              src="{{ event.image }}"
-              class="img-fluid"
-              alt="{{ event.title }}"
-            />
+            <a [routerLink]="['/events/events-details', event.id, event.title]">
+              <img
+                class="card-img-top"
+                src="{{ event.image }}"
+                class="img-fluid"
+                alt="{{ event.title }}"
+            /></a>
             <div class="card-body">
               <h5 class="card-title">{{ event.title }}</h5>
               <p class="card-text">
+                <!-- <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b> -->
                 <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b>
                 &nbsp; &nbsp; &nbsp;
                 <span class="text-danger font-weight-bold">{{

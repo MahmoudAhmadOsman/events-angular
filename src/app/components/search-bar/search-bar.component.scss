@@ -3,6 +3,7 @@ $textColor: #222;
 
 .search-bar-container {
     position: relative;
+    margin: 0px auto 104px auto;
 
     .container {
         h3 {
@@ -10,6 +11,8 @@ $textColor: #222;
             color: $textColor;
             font-weight: bold;
             font-size: 42px;
+            // margin: 81px 0px 0px 0px;
+            margin: 0px;
         }
 
         p {
@@ -20,7 +23,7 @@ $textColor: #222;
 
     }
 
-    button#search-event {
+    a#search-event {
         // width: 170px;
         // height: 56px;
         margin-top: 31px !important;
@@ -28,13 +31,33 @@ $textColor: #222;
         font-weight: bold;
     }
 
-    button#search-event2 {
-        // width: 170px;
-        // height: 56px;
+    a#search-event2 {
+
         margin-top: 31px !important;
-        margin-left: -85px;
+        // margin-left: -85px;
         border-radius: 28px;
         background-color: $main_color;
         font-weight: bold;
+    }
+}
+
+
+@media(max-width:768px) {
+    .search-bar-container {
+        position: relative;
+        display: block;
+        a#search-event {
+            margin-top: 31px !important;
+            background-color: $main_color;
+            font-weight: bold;
+        }
+
+        a#search-event2 {
+            float: right;
+            margin-top: -35px !important;
+            border-radius: 28px;
+            background-color: $main_color;
+            font-weight: bold;
+        }
     }
 }
