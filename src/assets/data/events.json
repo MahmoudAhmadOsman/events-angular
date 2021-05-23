@@ -46,7 +46,7 @@
       "city": "Albany",
       "state": "NY",
       "location": "77964 7th Road",
-      "createdAt": "10.10.2020"
+      "createdAt": "10-10-2021"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "city": "Syracuse",
       "state": "NY",
       "location": "4 Golf Course Court",
-      "createdAt": "11.6.2020"
+      "createdAt": "11-6-2021"
     },
     {
       "id": 6,
@@ -66,11 +66,11 @@
       "image": "http://dummyimage.com/120x100.png/dddddd/000000",
       "price": "23.99",
       "seats": 35,
-      "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "description": "Sed ante. Vsivamus tortor. Duis mattis egestas metus.",
       "city": "New York City",
       "state": "NY",
       "location": "35970 Dahle Circle",
-      "createdAt": "8.15.2021"
+      "createdAt": "8-15-2021"
     }
   ]
 }
