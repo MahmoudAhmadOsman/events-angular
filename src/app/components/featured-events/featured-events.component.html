@@ -20,6 +20,7 @@
                 class="card-img-top"
                 src="{{ event.imageURL }}"
                 class="img-fluid"
+                onerror="this.src='assets/images/has-no-image.png';"
                 alt="{{ event.title }}"
             /></a>
             <div class="card-body">
@@ -36,9 +37,7 @@
                 <br />
                 <span>{{ event.city }}, {{ event.state }}</span>
               </p>
-              <p class="card-text">
-                {{ event.summary }}...
-              </p>
+              <p class="card-text">{{ event.summary }}...</p>
             </div>
           </div>
         </div>
