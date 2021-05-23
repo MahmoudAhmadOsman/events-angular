@@ -22,12 +22,12 @@ $paraSize: 21px;
     .ticket-price {
         height: 100vh;
         position: relative;
-        position: absolute;
-        display: block;
-        top: 60%;
-        left: 5%;
-        right: 0;
-        bottom: 0;
+        // position: absolute;
+        margin-top: 309px;
+        // top: 60%;
+        // left: 5%;
+        // right: 0;
+        // bottom: 0;
 
         p.text-muted {
             font-size: $paraSize;
@@ -67,11 +67,68 @@ $paraSize: 21px;
 
         .by-ticket {
             a.btn-danger {
+                width: 178px;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                padding: 0px;
                 background-color: $main_color !important;
                 font-weight: bold;
                 font-size: $paraSize;
             }
         }
+
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .events-details {
+        position: relative;
+
+        .ticket-price {
+            margin-top: 0px;
+        }
+
+        .ticket-download-heart {
+            position: relative;
+            display: inline-flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+
+
+            >div {
+                display: block;
+                margin: 14px 14px 0px 0px !important;
+                // margin: 3px !important;
+            }
+        }
+
+
+        .upload {
+            position: relative;
+
+
+            .fa-upload,
+                {
+                font-size: 35px !important;
+                margin-top: 14px !important;
+
+            }
+        }
+
+        .heart {
+            position: relative;
+
+            .fa-heart {
+                font-size: 35px !important;
+                margin-top: 14px !important;
+            }
+        }
+
 
     }
 }
