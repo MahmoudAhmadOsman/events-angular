@@ -1,9 +1,50 @@
 <section class="events-details mt-4">
   <div class="container">
-    <h3>Coming Soon</h3>
     <div class="row">
-      <div class="col-md-6">1</div>
-      <div class="col-md-6">2</div>
+      <div class="col-md-8">
+        <img
+          src="{{ eventDetails.imageURL }}"
+          class="img-fluid"
+          alt="{{ eventDetails.title }}"
+        />
+        <h2>{{ eventDetails.title }}</h2>
+        <p class="hosted"><b>Hosted By UX Agency</b></p>
+        <p>{{ eventDetails.description }}</p>
+      </div>
+      <div class="col-md-4">
+        <div class="location-details">
+          <p>
+            <span
+              ><b>{{
+                eventDetails.createdAt | date: "MMM d, y, h:mm:ss a"
+              }}</b></span
+            >
+            <br />
+
+            <span><b>Location </b><br />{{ eventDetails.location }}</span>
+            <br />
+            <span>{{ eventDetails.city }}, {{ eventDetails.state }}</span>
+          </p>
+        </div>
+
+        <!-- Ticket price -->
+        <div class="ticket-price">
+          <p class="text-muted">
+            <b>{{ eventDetails.price | currency }} per ticket</b>
+          </p>
+          <div class="ticket-download-heart">
+            <div class="upload">
+              <i class="fas fa-upload"></i>
+            </div>
+            <div class="heart">
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="by-ticket">
+              <a href="#" class="btn btn-danger">Buy Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturedEventsComponent implements OnInit {
 
- 
+  
   public listOfEvents = [];
   
   //show loading spinner
@@ -17,7 +17,8 @@ export class FeaturedEventsComponent implements OnInit {
     
     events.getEventList().subscribe(data => {
 
-      this.listOfEvents = data.events
+      // this.listOfEvents = data.events
+      this.listOfEvents = data
       console.log(data);
       this.loading = false;
 
@@ -25,6 +26,8 @@ export class FeaturedEventsComponent implements OnInit {
       console.log(err);
       this.loading = true;
     })
+
+    
   }
 
   ngOnInit(): void {

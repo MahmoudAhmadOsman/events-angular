@@ -1,0 +1,77 @@
+$main_color: #C93679;
+$parColor: #222222;
+$fontSize: 42px;
+$paraSize: 21px;
+
+.events-details {
+    position: relative;
+
+    h2 {
+        color: $main_color;
+        margin: 32px 0px 18px 0px;
+        font-size: $fontSize;
+    }
+
+    p.hosted,
+    p {
+        margin-bottom: 16px;
+        color: $parColor;
+        font-size: $paraSize;
+    }
+
+    .ticket-price {
+        height: 100vh;
+        position: relative;
+        position: absolute;
+        display: block;
+        top: 60%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+
+        p.text-muted {
+            font-size: $paraSize;
+        }
+
+
+        .ticket-download-heart {
+            position: relative;
+            display: flex;
+            display: inline-flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+
+            >div {
+                margin: 10px;
+            }
+
+        }
+
+        .upload {
+            position: relative;
+
+            .fa-upload {
+                font-size: 45px;
+            }
+        }
+
+        .heart {
+            position: relative;
+
+            .fa-heart {
+                font-size: 45px;
+            }
+        }
+
+        .by-ticket {
+            a.btn-danger {
+                background-color: $main_color !important;
+                font-weight: bold;
+                font-size: $paraSize;
+            }
+        }
+
+    }
+}
