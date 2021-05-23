@@ -12,6 +12,7 @@ import { FeaturedEventsComponent } from './components/featured-events/featured-e
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { FeaturedEventsDetailsComponent } from './components/featured-events-details/featured-events-details.component';
+import { DescshortnerPipe } from './pipes/descshortner.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FeaturedEventsDetailsComponent } from './components/featured-events-det
     FeaturedEventsComponent,
     NavbarComponent,
     LoadingComponent,
-    FeaturedEventsDetailsComponent
+    FeaturedEventsDetailsComponent,
+    DescshortnerPipe
   ],
   imports: [
     BrowserModule,

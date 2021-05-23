@@ -14,7 +14,7 @@
       <app-search-bar></app-search-bar>
       <div class="row">
         <div class="col-md-4" *ngFor="let event of listOfEvents">
-          <div class="card">
+          <div class="card mb-3">
             <a [routerLink]="['/events/events-details', event.id, event.title]">
               <img
                 class="card-img-top"
@@ -37,7 +37,7 @@
                 <span>{{ event.city }}, {{ event.state }}</span>
               </p>
               <p class="card-text">
-                {{ event.description }}
+                {{ event.summary }}...
               </p>
             </div>
           </div>
