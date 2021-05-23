@@ -20,10 +20,13 @@
               }}</b></span
             >
             <br />
-
+            <br />
             <span><b>Location </b><br />{{ eventDetails.location }}</span>
             <br />
-            <span>{{ eventDetails.city }}, {{ eventDetails.state }}</span>
+            <span
+              >{{ eventDetails.city }}, {{ eventDetails.state }},
+              {{ eventDetails.zipCode }}</span
+            >
           </p>
         </div>
 
@@ -41,6 +44,9 @@
             </div>
             <div class="by-ticket">
               <a href="#" class="btn btn-danger">Buy Tickets</a>
+              <p class="available-seats">
+                {{ eventDetails.seats }} seats available
+              </p>
             </div>
           </div>
         </div>

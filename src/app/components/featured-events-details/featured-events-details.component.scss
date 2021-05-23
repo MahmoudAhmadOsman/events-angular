@@ -80,6 +80,14 @@ $paraSize: 21px;
                 font-weight: bold;
                 font-size: $paraSize;
             }
+
+            p.available-seats {
+                color: #FF0A00;
+                font-weight: bold;
+                font-size: $paraSize;
+                margin-top: 40px;
+
+            }
         }
 
     }
