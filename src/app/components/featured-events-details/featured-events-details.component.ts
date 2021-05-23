@@ -17,8 +17,6 @@ export class FeaturedEventsDetailsComponent implements OnInit {
     this.showEventDetails();
   }
 
-
-
 //Show event by id
    showEventDetails() {
     console.log("Pramiterized Event Details Route: ", this.route.snapshot.params['id']);
@@ -32,14 +30,6 @@ export class FeaturedEventsDetailsComponent implements OnInit {
     })
 }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
 }
