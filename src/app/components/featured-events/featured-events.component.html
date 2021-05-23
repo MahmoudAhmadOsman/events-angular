@@ -1,5 +1,4 @@
 <section class="featured-events">
-  
   <!-- Start of loading spinner -->
   <div class="container">
     <div class="row" *ngIf="loading; else loaded">
@@ -19,7 +18,7 @@
             <a [routerLink]="['/events/events-details', event.id, event.title]">
               <img
                 class="card-img-top"
-                src="{{ event.image }}"
+                src="{{ event.imageURL }}"
                 class="img-fluid"
                 alt="{{ event.title }}"
             /></a>
@@ -27,7 +26,7 @@
               <h5 class="card-title">{{ event.title }}</h5>
               <p class="card-text">
                 <!-- <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b> -->
-                <b>{{ event.createdAt| date: "MMM d, y, h:mm:ss a" }}</b>
+                <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b>
                 &nbsp; &nbsp; &nbsp;
                 <span class="text-danger font-weight-bold">{{
                   event.soldOut

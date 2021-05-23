@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Registered Nurse",
-      "image": "http://dummyimage.com/157x100.png/dddddd/000000",
+      "imageURL": "https://source.unsplash.com/1600x900/?nurse",
       "price": "18.65",
       "seats": 30,
       "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "title": "Health Coach II",
-      "image": "http://dummyimage.com/147x100.png/5fa2dd/ffffff",
+      "imageURL": "https://source.unsplash.com/1600x900/?health",
       "price": "17.55",
       "seats": 36,
       "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "title": "Account Coordinator",
-      "image": "http://dummyimage.com/124x100.png/ff4444/ffffff",
+      "imageURL": "https://source.unsplash.com/1600x900/?account",
       "price": "22.00",
       "seats": 26,
       "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "title": "Project Manager",
-      "image": "http://dummyimage.com/170x100.png/ff4444/ffffff",
+      "imageURL": "https://source.unsplash.com/1600x900/?manager",
       "price": "18.58",
       "seats": 37,
       "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -51,7 +51,7 @@
     {
       "id": 5,
       "title": "Marketing Manager",
-      "image": "http://dummyimage.com/120x100.png/ff4444/ffffff",
+      "imageURL": "https://source.unsplash.com/1600x900/?marketing",
       "price": "17.12",
       "seats": 19,
       "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -63,7 +63,7 @@
     {
       "id": 6,
       "title": "Operator",
-      "image": "http://dummyimage.com/120x100.png/dddddd/000000",
+      "imageURL": "https://source.unsplash.com/1600x900/?operator",
       "price": "23.99",
       "seats": 35,
       "description": "Sed ante. Vsivamus tortor. Duis mattis egestas metus.",
