@@ -10,7 +10,7 @@
       "city": "Bronx",
       "state": "NY",
       "location": "5 Evergreen Avenue",
-      "createdAt": "1.25.2021"
+      "createdAt": "1-25-2021"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "city": "New York City",
       "state": "NY",
       "location": "9 Fremont Plaza",
-      "createdAt": "1.10.2020"
+      "createdAt": "1-10-2020"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "city": "Brooklyn",
       "state": "NY",
       "location": "76017 Spaight Street",
-      "createdAt": "1.4.2021"
+      "createdAt": "1-4-2021"
     },
     {
       "id": 4,
