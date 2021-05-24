@@ -4,6 +4,7 @@
       <div class="col-md-8">
         <img
           src="{{ eventDetails.imageURL }}"
+          onerror="this.src='assets/images/has-no-image.png';"
           class="img-fluid"
           alt="{{ eventDetails.title }}"
         />
