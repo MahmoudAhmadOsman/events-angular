@@ -16,13 +16,6 @@
         <div class="col-md-4" *ngFor="let event of listOfEvents">
           <div class="card mb-3">
             <a [routerLink]="['/events/events-details', event.id, event.title]">
-              <!-- <img
-                class="card-img-top"
-                src="{{ event.imageURL }}"
-                class="img-fluid"
-                onerror="this.src='assets/images/has-no-image.png';"
-                alt="{{ event.title }}"
-            /> -->
               <ng-container *ngIf="event">
                 <img
                   src="{{ event.imageURL }}"
@@ -40,7 +33,7 @@
               <p class="card-text">
                 <!-- <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b> -->
                 <b style="font-size: 12px">{{
-                  event.PublishedDate | date: "MMM d, y, h:mm:ss a"
+                  event.publishedDate | date: "MMM d, y, h:mm:ss a"
                 }}</b>
                 &nbsp; &nbsp; &nbsp;
                 <span class="text-danger font-weight-bold">{{
