@@ -1,10 +1,13 @@
 $main_color: #C93679;
 $parColor: #222222;
-$fontSize: 42px;
+$fontSize: 32px;
 $paraSize: 21px;
 
 .events-details {
     position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
 
     h2 {
         color: $main_color;
@@ -22,8 +25,9 @@ $paraSize: 21px;
     .ticket-price {
         height: 100vh;
         position: relative;
-        // position: absolute;
-        margin-top: 309px;
+        position: fixed;
+        // margin-top: 309px;
+        margin-top: 220px;
         // top: 60%;
         // left: 5%;
         // right: 0;
@@ -52,7 +56,8 @@ $paraSize: 21px;
         .upload {
             position: relative;
 
-            .fa-upload {
+            img {
+                width: 45px;
                 font-size: 45px;
                 margin-top: 6px;
                 cursor: pointer;
@@ -63,11 +68,13 @@ $paraSize: 21px;
         .heart {
             position: relative;
 
-            .fa-heart {
+            img {
+                width: 45px;
                 font-size: 45px;
                 margin-top: 11px;
                 cursor: pointer;
                 color: #716c6c;
+
             }
         }
 

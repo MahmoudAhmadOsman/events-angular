@@ -32,7 +32,7 @@
               <h5 class="card-title">{{ event.title }}</h5>
               <p class="card-text">
                 <!-- <b>{{ event.createdAt | date: "MMM d, y, h:mm:ss a" }}</b> -->
-                <b style="font-size: 12px">{{
+                <b class="published-date">{{
                   event.publishedDate | date: "MMM d, y, h:mm:ss a"
                 }}</b>
                 &nbsp; &nbsp; &nbsp;
@@ -40,7 +40,7 @@
                   event.soldOut
                 }}</span>
                 <br />
-                <span>{{ event.city }}, {{ event.state }}</span>
+                <span class="city-state">{{ event.city }}, {{ event.state }}</span>
               </p>
               <p class="card-text">{{ event.summary }}</p>
             </div>

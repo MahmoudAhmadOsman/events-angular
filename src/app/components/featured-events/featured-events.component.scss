@@ -1,6 +1,8 @@
 $main_color: #C93679;
 $parColor: #222222;
-$paraSize: 21px;
+$headerSize: 24px;
+$paraSize: 18px;
+$dateSize: 22px;
 
 .featured-events {
     position: relative;
@@ -36,6 +38,17 @@ $paraSize: 21px;
 
         h5.card-title {
             color: $main_color;
+            font-size: $headerSize;
+            font-weight: bold;
+        }
+
+        b.published-date {
+            font-size: $dateSize;
+            font-weight: bold;
+        }
+
+        span.city-state {
+            font-size: $dateSize;
         }
 
         p {
