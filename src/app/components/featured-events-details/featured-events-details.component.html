@@ -2,12 +2,22 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <img
+        <!-- <img
           src="{{ eventDetails.imageURL }}"
           onerror="this.src='assets/images/has-no-image.png';"
           class="img-fluid"
           alt="{{ eventDetails.title }}"
-        />
+        /> -->
+
+        <ng-container *ngIf="eventDetails">
+          <img
+            src="{{ eventDetails.imageURL }}"
+            class="img-fluid"
+            onerror="this.src='assets/images/has-no-image.png';"
+            alt="{{ eventDetails.title }}"
+          />
+        </ng-container>
+
         <h2>{{ eventDetails.title }}</h2>
         <p class="hosted"><b>Hosted By UX Agency</b></p>
         <p>{{ eventDetails.description }}</p>
@@ -17,7 +27,7 @@
           <p>
             <span style="width: 60%; float: left"
               ><b>{{
-                eventDetails.createdAt | date: "MMM d, y, h:mm:ss a"
+                eventDetails.PublishedDate | date: "MMM d, y, h:mm:ss a"
               }}</b></span
             >
             <br />

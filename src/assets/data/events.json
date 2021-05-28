@@ -4,7 +4,7 @@
       "id": 1,
       "title": "UX Design Workshop",
       "imageURL": "https://source.unsplash.com/1600x900/?nurse",
-      "price": "4.99",
+      "price": "64.99",
       "soldOut": "",
       "seats": 30,
       "summary": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
@@ -13,13 +13,13 @@
       "state": "NY",
       "zipCode": "10469",
       "location": "5 Evergreen Avenue",
-      "createdAt": "1-25-2021"
+      "PublishedDate": "4/16/2021"
     },
     {
       "id": 2,
       "title": "Women Fashion - Spring",
       "imageURL": "https://source.unsplash.com/1600x900/?health",
-      "price": "4.99",
+      "price": "54.99",
       "soldOut": "",
       "seats": 36,
       "summary": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
@@ -28,13 +28,13 @@
       "state": "NY",
       "zipCode": "11225",
       "location": "9 Fremont Plaza",
-      "createdAt": "1-10-2020"
+      "PublishedDate": "1/10/2021"
     },
     {
       "id": 3,
       "title": "Business Women",
       "imageURL": "https://source.unsplash.com/1600x900/?account",
-      "price": "4.99",
+      "price": "44.99",
       "soldOut": "",
       "seats": 26,
       "summary": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
@@ -43,13 +43,13 @@
       "state": "NY",
       "zipCode": "10034",
       "location": "76017 Spaight Street",
-      "createdAt": "1-4-2021"
+      "PublishedDate": "1/4/2021"
     },
     {
       "id": 4,
       "title": "UX Design Workshop",
       "imageURL": "https://source.unsplash.com/1600x900/?manager",
-      "price": "4.99",
+      "price": "34.99",
       "soldOut": "",
       "seats": 37,
       "summary": "In this workshop we will be going over the best UX practices and talking about new trends and etc…",
@@ -58,13 +58,13 @@
       "state": "NY",
       "zipCode": "12227",
       "location": "77964 7th Road",
-      "createdAt": "10-10-2021"
+      "PublishedDate": "2/10/2021"
     },
     {
       "id": 5,
       "title": "Women Fashion - Spring",
       "imageURL": "https://source.unsplash.com/1600x900/?marketing",
-      "price": "4.99",
+      "price": "24.99",
       "soldOut": "",
       "seats": 19,
       "summary": "We will be going over fashion trends that are coming out this spring. We will also be looking at any fashion made by you…",
@@ -73,13 +73,13 @@
       "state": "NY",
       "zipCode": "10474",
       "location": "4 Golf Course Court",
-      "createdAt": "11-6-2021"
+      "PublishedDate": "3/6/2021"
     },
     {
       "id": 6,
       "title": "Business Women",
       "imageURL": "https://source.unsplash.com/1600x900/?operator",
-      "price": "4.99",
+      "price": "14.99",
       "soldOut": "Sold Out",
       "seats": 35,
       "summary": "In this event we will talk about how we women can start out own business. We will go through business basics and more…",
@@ -88,7 +88,7 @@
       "state": "NY",
       "zipCode": "10292",
       "location": "35970 Dahle Circle",
-      "createdAt": "8-15-2021"
+      "PublishedDate": "5-15/2021"
     }
   ]
 }

@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class FeaturedEventsDetailsComponent implements OnInit {
 
   public eventDetails: any;
-
+ 
   constructor(private eventsService: EventsService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
