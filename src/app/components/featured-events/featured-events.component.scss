@@ -1,5 +1,6 @@
 $main_color: #C93679;
 $parColor: #222222;
+$paraSize: 21px;
 
 .featured-events {
     position: relative;
@@ -11,6 +12,26 @@ $parColor: #222222;
             // height: 259px;
             height: auto;
             border-radius: 3px;
+        }
+
+        .heart-on-card {
+            background-color: #FDFDFD;
+            width: 57px;
+            height: 57px;
+            display: block;
+            border-radius: 50px;
+            float: right;
+            top: 40%;
+            right: 10px;
+            position: absolute;
+
+            .fa-heart {
+                font-size: $paraSize + 5;
+                cursor: pointer;
+                text-align: center !important;
+                line-height: 57px;
+                display: block;
+            }
         }
 
         h5.card-title {
