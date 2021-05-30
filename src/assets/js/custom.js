@@ -1,9 +1,13 @@
-$(document).ready( ()=> {
-    $(".featured-events .card .heart-on-card .fa-heart").click(() => {
-        $(this).addClass("fas fa-heart");
-        // $(this).hide(100);
-        
-    });
+$(document).ready(() => {
+    
+    $(".fa-heart").click(() => {
+    alert("Clicked!")
+})
+
+ 
+ 
+
+
 });
   
  
