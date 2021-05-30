@@ -14,8 +14,8 @@
       <app-search-bar></app-search-bar>
       <div class="row">
         <div class="col-md-4" *ngFor="let event of listOfEvents">
-          <div class="card mb-3">
-            <a [routerLink]="['/events/events-details', event.id, event.title]">
+          <a [routerLink]="['/events/events-details', event.id, event.title]">
+            <div class="card mb-3">
               <ng-container *ngIf="event">
                 <img
                   src="{{ event.imageURL }}"
@@ -24,35 +24,36 @@
                   alt="{{ event.title }}"
                 />
               </ng-container>
-            </a>
-            <div class="heart-on-card">
-              <i class="far fa-heart"></i>
-              <!-- <img
+
+              <div class="heart-on-card">
+                <i class="far fa-heart"></i>
+                <!-- <img
                 src="assets/images/icons/event-heart.png"
                 class="img-fluid"
                 id="imgplus"
                 alt="{{ event.title }}"
                 onclick="chngimg()"
               /> -->
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">{{ event.title }}</h5>
+                <p class="card-text">
+                  <b class="published-date">{{
+                    event.publishedDate | date: "MMM d, y, h:mm:ss a"
+                  }}</b>
+                  &nbsp; &nbsp; &nbsp;
+                  <span class="text-danger font-weight-bold">{{
+                    event.soldOut
+                  }}</span>
+                  <br />
+                  <span class="city-state"
+                    >{{ event.city }}, {{ event.state }}</span
+                  >
+                </p>
+                <p class="card-text">{{ event.summary }}</p>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">{{ event.title }}</h5>
-              <p class="card-text">
-                <b class="published-date">{{
-                  event.publishedDate | date: "MMM d, y, h:mm:ss a"
-                }}</b>
-                &nbsp; &nbsp; &nbsp;
-                <span class="text-danger font-weight-bold">{{
-                  event.soldOut
-                }}</span>
-                <br />
-                <span class="city-state"
-                  >{{ event.city }}, {{ event.state }}</span
-                >
-              </p>
-              <p class="card-text">{{ event.summary }}</p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
