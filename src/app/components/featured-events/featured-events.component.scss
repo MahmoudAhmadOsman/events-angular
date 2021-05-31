@@ -18,8 +18,8 @@ $dateSize: 22px;
 
         .heart-on-card {
             background-color: #FDFDFD;
-            width: 57px;
-            height: 57px;
+            width: 40px;
+            height: 40px;
             display: block;
             border-radius: 50px;
             float: right;
@@ -31,8 +31,9 @@ $dateSize: 22px;
                 font-size: $paraSize + 5;
                 cursor: pointer;
                 text-align: center !important;
-                line-height: 57px;
+                line-height: 40px;
                 display: block;
+                color: #000;
             }
 
             // img {

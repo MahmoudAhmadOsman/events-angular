@@ -14,27 +14,30 @@
       <app-search-bar></app-search-bar>
       <div class="row">
         <div class="col-md-4" *ngFor="let event of listOfEvents">
-          <a [routerLink]="['/events/events-details', event.id, event.title]">
-            <div class="card mb-3">
-              <ng-container *ngIf="event">
+          <div class="card mb-3">
+            <ng-container *ngIf="event">
+              <a
+                [routerLink]="['/events/events-details', event.id, event.title]"
+              >
                 <img
                   src="{{ event.imageURL }}"
                   class="card-img-top img-fluid"
                   onerror="this.src='assets/images/has-no-image.png';"
                   alt="{{ event.title }}"
-                />
-              </ng-container>
+              /></a>
+            </ng-container>
 
-              <div class="heart-on-card">
-                <i class="far fa-heart"></i>
-                <!-- <img
+            <div class="heart-on-card">
+              <i class="far fa-heart"></i>
+              <!-- <img
                 src="assets/images/icons/event-heart.png"
                 class="img-fluid"
                 id="imgplus"
                 alt="{{ event.title }}"
                 onclick="chngimg()"
               /> -->
-              </div>
+            </div>
+            <a [routerLink]="['/events/events-details', event.id, event.title]">
               <div class="card-body">
                 <h5 class="card-title">{{ event.title }}</h5>
                 <p class="card-text">
@@ -52,8 +55,8 @@
                 </p>
                 <p class="card-text">{{ event.summary }}</p>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </div>

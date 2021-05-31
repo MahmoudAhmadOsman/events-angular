@@ -1,13 +1,8 @@
-$(document).ready(() => {
+$(document).ready(function () {
     
-    $(".fa-heart").click(() => {
-    alert("Clicked!")
-})
-
- 
- 
-
-
+    $(".heart-on-card").click(function () {
+        alert("fa heart")
+    });
 });
   
  
