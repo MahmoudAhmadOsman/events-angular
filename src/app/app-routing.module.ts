@@ -2,6 +2,7 @@ import { FeaturedEventsComponent } from './components/featured-events/featured-e
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FeaturedEventsDetailsComponent } from './components/featured-events-details/featured-events-details.component';
+import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
 
 const routes: Routes = [
  
@@ -12,6 +13,7 @@ const routes: Routes = [
     path: "events", children: [
       { path: "", component: FeaturedEventsComponent },
       { path: "events-details/:id/:title", component: FeaturedEventsDetailsComponent },
+      { path: "search-events-restult", component: SearchEventResultComponent },
     ]
   }
 

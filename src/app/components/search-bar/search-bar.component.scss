@@ -23,7 +23,7 @@ $textColor: #222;
 
     }
 
-    button#search-event {
+    a#search-event {
         // width: 170px;
         // height: 56px;
         margin-top: 31px !important;
@@ -47,7 +47,7 @@ $textColor: #222;
         position: relative;
         display: block;
 
-        button#search-event {
+        a#search-event {
             margin-top: 31px !important;
             background-color: $main_color;
             font-weight: bold;

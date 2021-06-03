@@ -1,7 +1,8 @@
 $(document).ready(function () {
-    
-    $(".heart-on-card").click(function () {
-        alert("fa heart")
+
+    $(".heart-on-card .fa-heart").click(function () {
+        $(this).hide();
+        console.log("clicked on fa fa-heart")
     });
 });
   

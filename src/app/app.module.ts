@@ -13,6 +13,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { FeaturedEventsDetailsComponent } from './components/featured-events-details/featured-events-details.component';
 import { DescshortnerPipe } from './pipes/descshortner.pipe';
+import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DescshortnerPipe } from './pipes/descshortner.pipe';
     NavbarComponent,
     LoadingComponent,
     FeaturedEventsDetailsComponent,
-    DescshortnerPipe
+    DescshortnerPipe,
+    SearchEventResultComponent
   ],
   imports: [
     BrowserModule,
