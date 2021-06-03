@@ -41,11 +41,11 @@
               <div class="card-body">
                 <h5 class="card-title">{{ event.title }}</h5>
                 <p class="card-text">
-                  <b class="published-date">{{
-                    event.publishedDate | date: "MMM d, y, h:mm:ss a"
-                  }}</b>
+                  <b class="published-date"
+                    >{{ event.publishedDate | date: "MMM d, y, h:mm" }} PM</b
+                  >
                   &nbsp; &nbsp; &nbsp;
-                  <span class="text-danger font-weight-bold">{{
+                  <span class="text-danger float-right font-weight-bold">{{
                     event.soldOut
                   }}</span>
                   <br />
