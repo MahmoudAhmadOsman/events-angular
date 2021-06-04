@@ -27,11 +27,11 @@
           <p>
             <span style="width: 60%; float: left"
               ><b>{{
-                eventDetails.publishedDate | date: "MMM d, y, h:mm:ss a"
-              }}</b></span
+                eventDetails.publishedDate | date: "MMM d, y"
+              }} <br/> {{eventDetails.time}}</b></span
             >
-            <br />
-            <br /><br />
+            <br /> <br /><br />
+           
             <span><b>Location </b><br />{{ eventDetails.location }}</span>
             <br />
             <span

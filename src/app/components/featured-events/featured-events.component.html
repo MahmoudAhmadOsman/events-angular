@@ -45,9 +45,9 @@
                     >{{ event.publishedDate | date: "MMM d, y, h:mm" }} PM</b
                   > -->
                   <b class="published-date"
-                    >{{ event.publishedDate }} {{ event.time }}</b
+                    >{{ event.publishedDate | date: "MMM d" }} {{ event.time }}</b
                   >
-                  &nbsp; &nbsp; &nbsp;
+
                   <span class="text-danger float-right font-weight-bold">{{
                     event.soldOut
                   }}</span>
