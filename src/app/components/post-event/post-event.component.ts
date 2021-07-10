@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostEventComponent implements OnInit {
 
+ 
   constructor() { }
 
   ngOnInit(): void {
