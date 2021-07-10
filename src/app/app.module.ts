@@ -15,7 +15,6 @@ import { LoadingComponent } from './components/loading/loading.component';
 import { FeaturedEventsDetailsComponent } from './components/featured-events-details/featured-events-details.component';
 import { DescshortnerPipe } from './pipes/descshortner.pipe';
 import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
-import { PostEventsComponent } from './components/post-events/post-events.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,7 @@ import { PostEventsComponent } from './components/post-events/post-events.compon
     FeaturedEventsDetailsComponent,
     DescshortnerPipe,
     SearchEventResultComponent,
-    PostEventsComponent
+   
   ],
   imports: [
     BrowserModule,
