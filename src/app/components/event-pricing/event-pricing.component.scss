@@ -33,7 +33,8 @@ $sharedColor: #C92570;
         position: relative;
 
         .btn-outline-secondary.active {
-            width: 282px;
+            // width: 282px;
+            width: 100%;
             height: 126px;
             line-height: 95px;
             background: #D9F6FF;
@@ -48,7 +49,8 @@ $sharedColor: #C92570;
         }
 
         .btn-outline-secondary {
-            width: 282px;
+            // width: 282px;
+            width: 100%;
             height: 126px;
             line-height: 95px;
             background: none;
@@ -58,6 +60,7 @@ $sharedColor: #C92570;
             opacity: 1;
             color: #222222;
             font-size: 32px;
+            margin-bottom: 20px;
 
 
         }
