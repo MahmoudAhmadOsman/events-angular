@@ -15,6 +15,7 @@ import { LoadingComponent } from './components/loading/loading.component';
 import { FeaturedEventsDetailsComponent } from './components/featured-events-details/featured-events-details.component';
 import { DescshortnerPipe } from './pipes/descshortner.pipe';
 import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
+import { EventPricingComponent } from './components/event-pricing/event-pricing.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SearchEventResultComponent } from './components/search-event-result/sea
     FeaturedEventsDetailsComponent,
     DescshortnerPipe,
     SearchEventResultComponent,
+    EventPricingComponent,
    
   ],
   imports: [
