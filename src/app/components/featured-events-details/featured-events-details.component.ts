@@ -19,12 +19,11 @@ export class FeaturedEventsDetailsComponent implements OnInit {
 
 //Show event by id
    showEventDetails() {
-    console.log("Pramiterized Event Details Route: ", this.route.snapshot.params['id']);
+    // console.log("Pramiterized Event Details Route: ", this.route.snapshot.params['id']);
     const id = this.route.snapshot.params['id'];
     this.eventsService.getEventById(id).subscribe(data => {
       this.eventDetails = data;
-
-      console.log("Event Detail of: ", data)
+      console.log("Event Details: ", data)
     }, (error) => {
       console.log("Error occured while fetching Event details", error.message)
     })

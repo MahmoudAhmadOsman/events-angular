@@ -2,9 +2,10 @@
   <div class="container">
     <h3>Events</h3>
     <p>Start networking at our events!</p>
-    <form action="#" method="POST">
+    <div class="search-form-container">
+      <form action="#" method="POST">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col">
           <div class="form-group">
             <label for="search">Search</label>
             <input
@@ -13,13 +14,13 @@
               ngModel
               #search="ngModel"
               id="search"
-              class="form-control form-control-md"
+              class="form-control"
               placeholder="Search for type of event"
               required
             />
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col">
           <div class="form-group">
             <label for="where">Where</label>
             <input
@@ -28,28 +29,38 @@
               ngModel
                #where="ngModel"
               id="where"
-             
-              class="form-control form-control-md"
+              class="form-control"
               placeholder="Location, Zip Code, City"
               required
             />
           </div>
         </div>
-        <div class="col-md-2">
-          <!-- <button class="btn btn-danger" id="search-event">Search</button> -->
-          <a
+        <div class="col">
+          <div class="form-group">
+      <a
             href="events/search-events-restult"
             class="btn btn-danger"
             type="submit"
-            id="search-event"
+            id="search-event-btn"
             >Search</a
           >
+          </div>
         </div>
 
-        <div class="col-md-2">
-          <a href="events/post-events" class="btn btn-danger" id="search-event2">Post Event</a>
+       <div class="col">
+          <div class="form-group">
+      <a
+            href="events/post-events"
+            class="btn btn-danger"
+            type="submit"
+            id="search-event-btn-2"
+            >Post Event</a>
+          
+          </div>
         </div>
       </div>
     </form>
+    </div>
+    
   </div>
 </section>

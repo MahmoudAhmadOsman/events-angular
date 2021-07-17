@@ -10,25 +10,31 @@ import { Event } from './../models/event';
 })
 export class EventsService {
  
-//  private baseUrl = "/assets/data/events.json";
- private baseUrl = "https://blogs-api.herokuapp.com/events/";
-    constructor(private http: HttpClient) { }
+ //private baseUrl:string = "/assets/data/events.json";
+
+
+  private baseUrl = "https://blogs-api.herokuapp.com/events/";
   
- //Get Event List
+    constructor(private http: HttpClient) { }
+
+ //Get Event List from remote server
    getEventList(): Observable<any> {
-     return this.http.get<Event[]>(this.baseUrl)
+      return this.http.get<Event[]>(this.baseUrl);
+     
    }
    
-  
-  //Get event by id
-  // getEventById(id: number): Observable<Event> {
-  //     //const baseUrl = "/assets/data/events.json";
-  //   // return this.http.get<Event>(this.baseUrl + '/events/' + id);
-  //   return this.http.get<Event>(this.baseUrl + id);
+   //Get data from local data json file
+  //  getEventList(): Observable<Event[]> {
+  //    return this.http.get<Event[]>(this.baseUrl); 
   // }
   
+  
+  //Remote Json file
     getEventById(id: number) {
     return this.http.get("https://blogs-api.herokuapp.com/events/" + id);
   }
   
+  //    getEventById(id: number) {
+  //       return this.http.get(this.baseUrl + id);
+  // }
 }
