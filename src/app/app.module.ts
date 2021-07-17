@@ -16,6 +16,7 @@ import { FeaturedEventsDetailsComponent } from './components/featured-events-det
 import { DescshortnerPipe } from './pipes/descshortner.pipe';
 import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
 import { EventPricingComponent } from './components/event-pricing/event-pricing.component';
+import { EventTicketComponent } from './components/event-ticket/event-ticket.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { EventPricingComponent } from './components/event-pricing/event-pricing.
     DescshortnerPipe,
     SearchEventResultComponent,
     EventPricingComponent,
+    EventTicketComponent,
    
   ],
   imports: [
