@@ -32,21 +32,27 @@ $textColor: #222;
             // margin-top: 57px;
 
             .form-group {
+                position: relative;
+
                 label {
                     font-size: 21px;
                 }
 
-                position: relative;
+
 
                 input[type="text"] {
-                    //  width: 477px;
+                    width: 477px;
+                    width: 340px;
                     height: 56px;
+
 
                 }
 
                 a#search-event-btn {
                     width: 170px;
+                    width: auto;
                     height: 56px;
+
                     line-height: 2.4rem;
                     margin-top: 39px !important;
                     background-color: $main_color;
@@ -77,7 +83,13 @@ $textColor: #222;
 }
 
 
-@media(max-width:1170px) {
+// @media(max-width:1170px) 
+
+
+
+// @media(max-width:1061px)
+
+@media (max-width: 768px) {
     .search-bar-container {
         display: block;
         position: relative;
@@ -94,73 +106,32 @@ $textColor: #222;
                 .form-group {
                     position: relative;
 
-                    clear: both;
-                    display: block;
-
-                    label {
-                        font-size: 21px;
-                    }
-
-
-
                     input[type="text"] {
-                        width: 100%;
+                        width: 340px;
                         height: 56px;
-
-                    }
-
-                    a#search-event-btn {
-                        width: auto !important;
-                        height: 56px;
-                        line-height: 2.4rem;
-                        margin-top: 39px !important;
-                        background-color: $main_color;
-                        font-weight: bold;
-                        font-size: 24px;
-                    }
-
-                    a#search-event-btn-2 {
-                        width: auto !important;
-                        height: 56px;
-                        line-height: 2.4rem;
-                        margin-top: 39px !important;
-                        background-color: $main_color;
-                        font-weight: bold;
-                        font-size: 22px;
-                        border-radius: 0px !important;
 
                     }
                 }
 
-            }
+                a#search-event-btn {
+                    width: 170px !important;
+                    line-height: 2.4rem;
+                    margin-top: 39px !important;
+                    background-color: $main_color;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
 
-            /*End of search form*/
-        }
-    }
-}
+                a#search-event-btn-2 {
+                    width: 170px !important;
+                    height: 56px;
+                    line-height: 2.4rem;
+                    margin-top: 39px !important;
+                    background-color: $main_color;
+                    font-weight: bold;
+                    font-size: 22px;
+                    border-radius: 0px !important;
 
-@media(max-width:1061px) {
-    .search-bar-container {
-        display: block;
-        position: relative;
-
-        .container {
-            position: relative;
-
-            /*Start of search form*/
-            .search-form-container {
-                position: relative;
-                margin-bottom: 104px;
-                // margin-top: 57px;
-
-                .form-group {
-                    position: relative;
-
-                    input[type="text"] {
-                        width: auto;
-                        height: 56px;
-
-                    }
                 }
 
             }
