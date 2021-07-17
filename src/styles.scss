@@ -4,3 +4,12 @@
 *::after {
     box-sizing: border-box;
 }
+
+
+@font-face {
+    font-family: SuisseIntl;
+    src: url(assets/fonts/SuisseIntl-Regular.otf);
+}
+body {
+    font-family: SuisseIntl;
+}
