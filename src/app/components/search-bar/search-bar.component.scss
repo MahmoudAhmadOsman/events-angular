@@ -117,7 +117,7 @@ $textColor: #222;
                     width: 170px !important;
                     line-height: 2.4rem;
                     margin-top: 39px !important;
-                    background-color: $main_color !important;
+                    background-color: $main_color;
                     font-weight: bold;
                     font-size: 24px;
                 }
@@ -127,7 +127,7 @@ $textColor: #222;
                     height: 56px;
                     line-height: 2.4rem;
                     margin-top: 39px !important;
-                    background-color: $main_color !important;
+                    background-color: $main_color ;
                     font-weight: bold;
                     font-size: 22px;
                     border-radius: 0px !important;

@@ -20,13 +20,18 @@
           <p>
             <span style="width: 60%; float: left"
               ><b
-                >{{ eventDetails.publishedDate | date: "EE, MMM d" }}
+                >{{ eventDetails.publishedDate | date: "EE, MMM d" }} <br />
                 {{ eventDetails.time }}</b
-              ></span
+              >
+            </span>
+            <br />
+            <br />
+            <br />
+            <span
+              ><b>Location </b><br />
+
+              {{ eventDetails.location }}</span
             >
-            <br />
-            <br />
-            <span><b>Location </b><br />{{ eventDetails.location }}</span>
             <br />
             <span
               >{{ eventDetails.city }}, {{ eventDetails.state }},
