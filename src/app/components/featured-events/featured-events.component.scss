@@ -7,17 +7,21 @@ $dateSize: 22px;
 .featured-events {
     position: relative;
     margin-top: 50px;
+
     .container {
         position: relative;
-        .featured-event-title{
+
+        .featured-event-title {
             position: relative;
-            h2{
-               color: #222; 
-               font-size:36px;
-               margin-bottom: 16px;
+
+            h2 {
+                color: #222;
+                font-size: 36px;
+                margin-bottom: 16px;
             }
-            p{
-                font-size:21px;
+
+            p {
+                font-size: 21px;
                 color: $main_color;
                 margin-bottom: 24px;
             }
@@ -25,6 +29,8 @@ $dateSize: 22px;
     }
 
     .card {
+        height: 549px;
+
         img {
             width: 414px;
             // height: 259px;
