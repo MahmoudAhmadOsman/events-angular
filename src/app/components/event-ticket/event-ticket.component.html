@@ -1,1 +1,40 @@
-<p>event-ticket works!</p>
+<section class="event-tickeet">
+  <div class="modal" id="event_ticket">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">
+            How many tickets will you like to purchase?
+          </h4>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="modal-ticket-content text-center">
+            <h4>Tickets</h4>
+            <!-- Start of buttons -->
+            <div class="quantity buttons_added">
+              <input type="button" value="-" class="minus" />
+              <input
+                type="number"
+                step="1"
+                min="1"
+                max=""
+                name="quantity"
+                value="1"
+                title="Qty"
+                class="input-text qty text"
+                size="4"
+                pattern=""
+                inputmode=""
+              /><input type="button" value="+" class="plus" />
+            </div>
+            <!-- End of buttons -->
+            <br />
+            <a href="#" class="btn btn-danger">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

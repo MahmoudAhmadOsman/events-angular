@@ -5,6 +5,7 @@ import { FeaturedEventsDetailsComponent } from './components/featured-events-det
 import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
 import { PostEventComponent } from './components/post-event/post-event.component';
 import { EventPricingComponent } from './components/event-pricing/event-pricing.component';
+import { EventTicketComponent } from './components/event-ticket/event-ticket.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,9 @@ const routes: Routes = [
     path: "events", children: [
       { path: "", component: FeaturedEventsComponent },
       { path: "events-details/:id/:title", component: FeaturedEventsDetailsComponent },
+      {
+        path: "event-ticket", component: EventTicketComponent 
+      },
       { path: "search-events-restult", component: SearchEventResultComponent },
       { path: "post-events", component: PostEventComponent },
       { path: "event-pricing", component: EventPricingComponent },
