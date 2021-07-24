@@ -1,0 +1,148 @@
+.checkout-payment-method {
+    position: relative;
+    height: 1500px;
+
+    .checkout-title {
+        h3 {
+            font-size: 42px;
+            color: #222;
+            margin: 38px auto;
+        }
+    }
+
+    .checkout-box {
+        position: relative;
+
+
+        .box-shadow {
+            width: 968px;
+            height: 340px;
+
+            padding: 20px;
+            box-shadow: 4px 8px 26px #00000019;
+            border: 1px solid #F5F8FA;
+
+        }
+
+        .middle {
+            position: relative;
+
+            h4 {
+                color: #C92570;
+                font-size: 32px;
+
+                font-weight: bold;
+            }
+        }
+
+        .mid-box {
+
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: center;
+
+            // margin-top: 24px;
+            margin-bottom: 18px;
+
+
+
+
+            // div {
+            //     margin-bottom: 18px;
+
+            // }
+            //Center box content
+            .mid-box-center-content {
+                position: relative;
+
+                p.date {
+                    font-size: 28px;
+                    color: #222;
+                }
+
+                p.state,
+                p.ticket {
+
+                    // font-size: 26px;
+                    font-size: inherit;
+                }
+
+                p.ticket {
+                    font-weight: bold;
+                }
+
+
+                q.quantity {
+                    font-size: 32px;
+                    color: #222222;
+                    display: none;
+                }
+            }
+
+            // Right box content
+            .mid-box-right-content {
+                position: relative;
+                margin-left: 89px;
+
+                p.quantity {
+                    font-size: 32px;
+                }
+
+                p.c-quantity {
+                    font-size: 21px;
+                    margin: 16px 0px;
+                    color: #085EFF;
+
+                    a {
+                        font-size: 21px;
+                    }
+
+                }
+
+                p.delete {
+                    a {
+                        color: #FF0707 !important;
+                        font-size: 21px;
+                    }
+                }
+
+                select {
+                    width: 27px;
+                    width:29px;
+                    height: 29px;
+                    margin: auto 33px;
+                }
+            }
+        }
+    }
+
+    /*Start of summary section*/
+    .checkout-summary {
+        width: 462px;
+        height: 340px;
+        position: relative;
+        background: #EFEFEF 0% 0% no-repeat padding-box;
+        border: 1px solid #EFEFEF;
+        padding: 20px;
+
+        h4 {
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        .summary-content {
+            position: relative;
+
+            table {
+                font-size: 21px;
+                color: #222;
+            }
+
+        }
+
+    }
+
+    /*End of summary section*/
+
+}

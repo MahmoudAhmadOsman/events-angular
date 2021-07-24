@@ -17,6 +17,7 @@ import { DescshortnerPipe } from './pipes/descshortner.pipe';
 import { SearchEventResultComponent } from './components/search-event-result/search-event-result.component';
 import { EventPricingComponent } from './components/event-pricing/event-pricing.component';
 import { EventTicketComponent } from './components/event-ticket/event-ticket.component';
+import { CheckoutPaymentComponent } from './components/checkout-payment/checkout-payment.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { EventTicketComponent } from './components/event-ticket/event-ticket.com
     SearchEventResultComponent,
     EventPricingComponent,
     EventTicketComponent,
+    CheckoutPaymentComponent,
    
   ],
   imports: [

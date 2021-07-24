@@ -6,6 +6,7 @@ import { SearchEventResultComponent } from './components/search-event-result/sea
 import { PostEventComponent } from './components/post-event/post-event.component';
 import { EventPricingComponent } from './components/event-pricing/event-pricing.component';
 import { EventTicketComponent } from './components/event-ticket/event-ticket.component';
+import { CheckoutPaymentComponent } from './components/checkout-payment/checkout-payment.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,9 @@ const routes: Routes = [
       { path: "events-details/:id/:title", component: FeaturedEventsDetailsComponent },
       {
         path: "event-ticket", component: EventTicketComponent 
+      },
+      {
+      path:"checkout-payment", component: CheckoutPaymentComponent
       },
       { path: "search-events-restult", component: SearchEventResultComponent },
       { path: "post-events", component: PostEventComponent },
