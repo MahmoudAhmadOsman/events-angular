@@ -1,4 +1,4 @@
-.checkout-payment-method {
+.checkout {
     position: relative;
     height: 1500px;
 
@@ -109,7 +109,7 @@
 
                 select {
                     width: 27px;
-                    width:29px;
+                    width: 29px;
                     height: 29px;
                     margin: auto 33px;
                 }
@@ -144,5 +144,67 @@
     }
 
     /*End of summary section*/
+
+
+
+
+
+
+    /*Start of Payment Method section*/
+    .checkout-payment-method {
+        margin-top: 80px;
+
+        h4.payment-title {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .in-use-card,
+        .add-new-card {
+            margin-bottom: 84px;
+            font-size: 21px;
+        }
+
+        .add-new-card {
+            position: relative;
+
+            .payment-cards {
+                position: relative;
+
+                .fa-cc-visa {
+                    color: #1A1F71;
+                    font-size: 40px;
+                    margin-right: 2px;
+                }
+
+                .fa-cc-mastercard {
+                    color: #FF5F00;
+                    font-size: 40px;
+                    margin-right: 2px;
+                }
+
+                .fa-cc-amex {
+                    color: #2671B9;
+                    font-size: 40px;
+                    margin-right: 2px;
+                }
+            }
+        }
+
+        .question {
+            background: #a6a6a6;
+            width: 20px;
+            height: 20px;
+            border-radius: 50px;
+            display: block;
+            /* line-height: 10px; */
+            margin: -30px 72px;
+            font-size: 13px;
+            text-align: center;
+            color: #fff
+        }
+    }
+
+    /*End of Payment Method section*/
 
 }
