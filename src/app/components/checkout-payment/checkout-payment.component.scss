@@ -2,20 +2,21 @@
     position: relative;
     .container {
         position: relative;
+        .checkout-title {
+            position: relative;
+            h3 {
+                font-size: 42px;
+                color: #222;
+                margin: 38px auto;
+            }
+        }
         .row {
             position: relative;
             .col-md-1 {
                 max-width: 2%;
                 margin-bottom: 25px;
             }
-            .checkout-title {
-                position: relative;
-                h3 {
-                    font-size: 42px;
-                    color: #222;
-                    margin: 38px auto;
-                }
-            }
+
             .boxes-host {
                 display: flex;
                 justify-content: space-around;
@@ -99,73 +100,71 @@
             position: relative;
             .row {
                 position: relative;
-                 .col-md-1 {
-                max-width: 100% !important;
-                 
-            }
+                .col-md-1 {
+                    max-width: 100% !important;
+                }
                 .checkout-title {
-                position: relative;
-                h3 {
-                    font-size: 32px;
-                    color: #222;
-                    margin: 19px auto;
-                }
-            }
-
-            .boxes-host {
-                display: block;
-                justify-content: space-around;
-                justify-content: center;
-            }
-
-            .checkout-shared-bg {
-                width: auto;
-                height: 100%;
-                padding: 20px;
-                background: #ffffff;
-                box-shadow: 4px 8px 26px #00000019;
-                border: 1px solid #f5f8fa;
-                margin-bottom: 40px;
-                .box-w-image {
                     position: relative;
-                    img {
-                        width: 100% !important;
-
-                        height: auto;
-                        object-fit: cover;
-                    }
-                }
-
-                .box-title {
                     h3 {
-                        font-size: 28px;
-                        color: #c92570;
-                       
-                    }
-                }
-                .date-state-box {
-                    position: relative;
-                    margin-left: 24px;
-                    margin-top: 24px;
-                    p.date {
-                        font-size: 14px;
-                    }
-                    p.location,
-                    p.ticket {
-                        font-size: 26px;
-                        font-size: 15px;
+                        font-size: 32px;
+                        color: #222;
+                        margin: 19px auto;
                     }
                 }
 
-                /*Quantity box*/
+                .boxes-host {
+                    display: block;
+                    justify-content: space-around;
+                    justify-content: center;
+                }
 
-                .quantity-box {
-                    margin: 15px auto !important;
-                    p.quantity {
-                        font-size: 25px;
+                .checkout-shared-bg {
+                    width: auto;
+                    height: 100%;
+                    padding: 20px;
+                    background: #ffffff;
+                    box-shadow: 4px 8px 26px #00000019;
+                    border: 1px solid #f5f8fa;
+                    margin-bottom: 40px;
+                    .box-w-image {
+                        position: relative;
+                        img {
+                            width: 100% !important;
+
+                            height: auto;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .box-title {
+                        h3 {
+                            font-size: 28px;
+                            color: #c92570;
+                        }
+                    }
+                    .date-state-box {
+                        position: relative;
+                        margin-left: 24px;
+                        margin-top: 24px;
+                        p.date {
+                            font-size: 14px;
+                        }
+                        p.location,
+                        p.ticket {
+                            font-size: 26px;
+                            font-size: 15px;
+                        }
+                    }
+
+                    /*Quantity box*/
+
+                    .quantity-box {
+                        margin: 15px auto !important;
+                        p.quantity {
+                            font-size: 25px;
+                        }
                     }
                 }
-            }
             }
         }
 
@@ -181,7 +180,7 @@
                 font-size: 32px;
                 color: #222;
                 text-align: center;
-                 margin: 15px;
+                margin: 15px;
             }
             table {
                 tr {
