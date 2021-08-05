@@ -1,166 +1,75 @@
-<section class="checkout">
+<section class="checkout-container">
   <div class="container">
     <div class="checkout-title">
       <h3>Checkout</h3>
     </div>
-    <div class="checkout-box">
-      <div class="row">
-        <div class="col-md-4 box-shadow">
-          <img
-            src="https://source.unsplash.com/1600x900/?nurse"
-            class="img-fluid"
-            alt="checkout image"
-          />
-        </div>
-        <div class="col-md-4 middle box-shadow">
-          <h4>UX Design Workshop</h4>
-          <div class="mid-box">
-            <div class="mid-box-center-content">
-              <p class="date">
-                <b>Sat Apr 25, 11:00 AM</b>
-              </p>
-              <p class="state">New York, NY</p>
-              <p class="ticket"><b>Tickets: 1</b></p>
-            </div>
-            <!-- Right box container -->
-            <div class="mid-box-right-content">
-              <p class="quantity"><b>Quantity</b></p>
-              <select name="" id="">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-              </select>
-              <p class="c-quantity"><a href="#">Change Quantity</a></p>
-              <p class="delete">
-                <a href="#" class="text-danger">Delete</a>
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Start of Summary box -->
-        <div class="col-md-4">
-          <div class="checkout-summary">
-            <h4>Summary</h4>
-            <div class="summary-content">
-              <div class="table-responsive">
-                <table class="table table-borderless table-sm">
-                  <tbody>
-                    <tr>
-                      <td>Price per ticket:</td>
-                      <td>$5.00</td>
-                    </tr>
-                    <tr>
-                      <td>Sub Total:</td>
-                      <td>$5.00</td>
-                    </tr>
-
-                    <tr>
-                      <td>Tax:</td>
-                      <td>$ 1.75</td>
-                    </tr>
-                    <tr>
-                      <td>Total:</td>
-                      <td>$ 6.75</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End of Summary box -->
-      </div>
-    </div>
-
-    <!-- Start of Payment method section -->
-    <div class="checkout-payment-method">
-      <div class="row">
-        <div class="col-md-6">
-          <h4 class="payment-title">Payment Method</h4>
-          <div class="in-use-card">
-            <input type="radio" name="payment" id="oldCard" checked required />
-            <label for="oldCard">
-              &nbsp; Use Default Card Ending in (2222)</label
-            >
-          </div>
-        
-  <hr />
-          <div class="add-new-card">
-            <input
-              type="radio"
-              name="payment"
-              id="newCard"
-              data-toggle="collapse"
-              data-target="#newCard"
-              required
+    <div class="row">
+      <div class="col-md-8 checkout-shared-bg">
+        <div class="boxes-host">
+          <div class="box-w-image">
+            <img
+              src="https://source.unsplash.com/1600x900/?newyear"
+              alt=""
+              class="img-fluid"
             />
+          </div>
+          <!-- <div class="box-title"><h3>UX Design Workshop</h3></div> -->
 
-            <label for="newCard">
-              &nbsp; New Credit Card/Debit Card &nbsp; &nbsp;</label
-            >
-            <span class="payment-cards"
-              ><i class="fab fa-cc-visa"></i>
-              <i class="fab fa-cc-mastercard"></i> <i class="fab fa-cc-amex"></i
-            ></span>
-
-            <div id="newCard" class="collapse">
-              <form action="#">
-                <h4>Billing Information</h4>
-                <!-- Card Name -->
-                <div class="form-group">
-                  <label for="name"
-                    >Name on the Card<b class="text-danger">*</b></label
-                  >
-                  <input type="text" class="form-control form-control-lg" />
-                </div>
-                <!-- Card number -->
-                <div class="form-group">
-                  <label for="name"
-                    >Card Number<b class="text-danger">*</b></label
-                  >
-                  <input type="text" class="form-control form-control-lg" />
-                </div>
-
-                <!--Card Expiration Date -->
-                <div class="form-group col-md-6">
-                  <label for="name"
-                    >Expiration Date<b class="text-danger">*</b></label
-                  >
-                  <input
-                    type="text"
-                    class="form-control form-control-lg"
-                    placeholder="Mm/yy"
-                  />
-                </div>
-
-                <!--Card CVV -->
-                <div
-                  class="form-group col-md-3"
-                  style="float: right; margin-top: -94px"
-                >
-                  <label for="name">CVV</label>
-
-                  <input type="text" class="form-control form-control-lg" />
-                  <span class="question">?</span>
-                </div>
-              </form>
-            </div>
+          <div class="date-state-box">
+            <div class="box-title"><h3>UX Design Workshop</h3></div>
+            <p class="date">
+              <b
+                >Sat <br />
+                Apr25, 11:00 AM</b
+              >
+            </p>
+            <p class="location">New York, NY</p>
+            <p class="ticiket"><b>Tickets: 1</b></p>
+          </div>
+          <!-- Quantity -->
+          <div class="quantity-box">
+            <p class="quantity"><b>Quantity</b></p>
+            <select name="" id="">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">2</option>
+            </select>
+            <p class="mt-3"><a href="#">Change Quantity</a></p>
+            <p>
+              <a href="#" class="text-danger font-weight-bold">Delete</a>
+            </p>
           </div>
         </div>
-        
-        <div class="col-md-6">
-          <br />
-          <br />
-          <div>
-            <a href="#"> Change</a>
-          </div>
-          
+      </div>
+      <div class="col-md-1"></div>
+
+      <div class="col-md-3 checkout-summary">
+        <h3>Summary</h3>
+        <div class="table-responsive">
+          <table class="table table-borderless table-sm">
+            <tbody>
+              <tr>
+                <td>Price per ticket:</td>
+                <td>$5.00</td>
+              </tr>
+              <tr>
+                <td>Sub Total:</td>
+                <td>$5.00</td>
+              </tr>
+
+              <tr>
+                <td>Tax:</td>
+                <td>$ 1.75</td>
+              </tr>
+              <tr>
+                <td>Total:</td>
+                <td>$ 6.75</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        
       </div>
     </div>
-    <!-- End of Payment method section -->
   </div>
 </section>
