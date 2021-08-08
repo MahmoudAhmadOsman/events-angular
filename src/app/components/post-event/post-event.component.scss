@@ -1,5 +1,5 @@
 $event_h1_font_size: 42px;
-$postEventColor: #C92570;
+$postEventColor: #c92570;
 
 .post-events-container {
     position: relative;
@@ -27,9 +27,10 @@ $postEventColor: #C92570;
             font-size: 21px;
         }
 
-        input[type="text"] {
-            // height: 56px;
-            border: 1px solid #C6C6C6;
+        input[type="text"],
+        select#all-states {
+            height: 56px;
+            border: 1px solid #c6c6c6;
             border-radius: 4px;
         }
 
@@ -39,34 +40,40 @@ $postEventColor: #C92570;
         }
     }
 
-
     /*Start of footer buttons */
     .footer-buttons {
         position: relative;
-        margin-left: 24%;
+        margin-left: 2.2%;
 
         button.btn {
+            width: 166px;
+            height: 48px;
+            background: #FFFFFF;
             font-weight: bold;
         }
 
         a.btn-light {
-            background: #E6E6E6;
-            box-shadow: 1px 4px 8px #0000001A;
-            border: 1px solid #E6E6E6;
+            width: 166px;
+            height: 48px;
+            line-height: 2.4rem;
+            background: #e6e6e6;
+            box-shadow: 1px 4px 8px #0000001a;
+            border: 1px solid #e6e6e6;
             color: #222;
             font-weight: bold;
         }
 
         a.btn-primary {
-            // height: 48px;
-            background-color: #1E96ED;
+            width: 166px;
+            height: 48px;
+            line-height: 2.4rem;
+            background-color: #1e96ed;
             font-weight: bold;
             color: #fff;
             box-shadow: 1px 4px 10px #00000019;
 
-
             &:hover {
-                background-color: #1E96ED;
+                background-color: #1e96ed;
                 font-weight: bold;
                 box-shadow: 1px 4px 10px #00000019;
                 color: #fff;
@@ -76,10 +83,9 @@ $postEventColor: #C92570;
     }
 
     /*End of footer buttons */
-
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .post-events-container {
         position: relative;
 
