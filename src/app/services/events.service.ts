@@ -31,7 +31,7 @@ export class EventsService {
   
   //Remote Json file
     getEventById(id: number) {
-    return this.http.get("https://blogs-api.herokuapp.com/events/" + id);
+    return this.http.get("https://stapes-api.onrender.com/events/" + id);
   }
   
   //    getEventById(id: number) {
