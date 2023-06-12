@@ -12,8 +12,8 @@ export class EventsService {
  
  //private baseUrl:string = "/assets/data/events.json";
 
-
-  private baseUrl = "https://blogs-api.herokuapp.com/events/";
+  //private baseUrl = "https://blogs-api.herokuapp.com/events/";
+  private baseUrl  = "https://stapes-api.onrender.com/events/";
   
     constructor(private http: HttpClient) { }
 
